@@ -5,3 +5,11 @@ C:\VSWorkSpace\Logger\obj\x86\Debug\Logger.Properties.Resources.resources
 C:\VSWorkSpace\Logger\obj\x86\Debug\Logger.csproj.GenerateResource.Cache
 C:\VSWorkSpace\Logger\obj\x86\Debug\Logger.dll
 C:\VSWorkSpace\Logger\obj\x86\Debug\Logger.pdb
+C:\VSWorkSpace\Logger\Logger\bin\Debug\logger.properties
+C:\VSWorkSpace\Logger\Logger\bin\Debug\Logger.dll.config
+C:\VSWorkSpace\Logger\Logger\bin\Debug\Logger.dll
+C:\VSWorkSpace\Logger\Logger\bin\Debug\Logger.pdb
+C:\VSWorkSpace\Logger\Logger\obj\x86\Debug\Logger.Properties.Resources.resources
+C:\VSWorkSpace\Logger\Logger\obj\x86\Debug\Logger.csproj.GenerateResource.Cache
+C:\VSWorkSpace\Logger\Logger\obj\x86\Debug\Logger.dll
+C:\VSWorkSpace\Logger\Logger\obj\x86\Debug\Logger.pdb

@@ -10,7 +10,7 @@ namespace Logger
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Today: {0}", DateTime.Today);
+            Console.WriteLine("Today: {0}", DateTime.Today.Ticks);
 
             DateTime y = GetYesterday();
             Console.WriteLine("Yesterday: {0}", y);
@@ -20,12 +20,11 @@ namespace Logger
             Console.WriteLine("logic {0}", false & true);
             Console.WriteLine("logic {0}", false & false);
 
-            Logger log = new Logger("c:/temp", "logFile", Logger.LEVEL.FATAL, Logger.ROLLOVER.CIRCULAR);
+            Logger log = new Logger("c:/temp", "logFile", Logger.LEVEL.FATAL, Logger.ROLLOVER.SIZE);
             int count = 0;
             while (count < 10000)
             {
                 log.LogMessage(Logger.LEVEL.FATAL, "help me do something better with my life!!");
-               // System.Threading.Thread.Sleep(500);
             }
 
 
